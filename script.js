@@ -27,8 +27,8 @@ const keyMapwithclass = {
     j: 'crash'     
 };
 
-document.addEventListener("keypress", (event)=>{
-    const pressedKey = event.key
+document.addEventListener("keydown", (event)=>{
+    const pressedKey = event.key.toLowerCase();
     // console.log(key)
     const audioSrc = keyMapwithaudio[pressedKey];
     if(audioSrc){
