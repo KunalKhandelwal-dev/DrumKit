@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(135deg, #3E1F04, #0A0A0A); 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-shadow: 3px 0 #DA0463;
+    color: #FFD700; 
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+footer {
+    text-shadow: 2px 0 #B22222;
+    color: #FFD700;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.drums {
+    display: block;
+    text-align: center;
+}
+
+.drums button {
+    background-color: #8B0000; 
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 40px;
+    border: 10px solid #FFD700; 
+    box-shadow: 0 0 20px #FFD700;
+}
+
+.drums button:hover {
+    cursor: pointer;
+    transform: scale(1.15) rotate(-2deg);
+    transition: transform 0.4s;
+    background-color: #B22222; 
+}
+
+.drums button img {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}
+
+.drums button p {
+    font-size: 40px;
+    text-shadow: 2px 0 #000000;
+    color: #FFD700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.active{
+    transform: scale(1.15) rotate(-2deg);
+    transition: transform 0.4s;
+    background-color: #B22222; 
+}
