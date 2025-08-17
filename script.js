@@ -31,7 +31,7 @@ document.addEventListener("keypress", (event)=>{
     const pressedKey = event.key
     // console.log(key)
     const audioSrc = keyMapwithaudio[pressedKey];
-    if(audioSrc){
+    if(audioSrc){``
         const audio = new Audio(audioSrc);
         audio.play();
         
